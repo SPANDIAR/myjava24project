@@ -2,6 +2,16 @@ package com.java24hours;
 
 public class LearningInheritenceChild1 extends LearningInheritenceParent {
 	
+	private String Lakes;
+	
+	public String getLakes() {
+		return Lakes;
+	}
+
+	public void setLakes(String lakes) {
+		Lakes = lakes;
+	}
+
 	public static void main(String[] args){
 		
 		LearningInheritenceChild1[] Trip = new LearningInheritenceChild1[2];
@@ -13,6 +23,7 @@ public class LearningInheritenceChild1 extends LearningInheritenceParent {
 			Trip[i].setBeaches(args[j++]);
 			Trip[i].setMountains(args[j++]);
 			Trip[i].setParks(args[j++]);
+			Trip[i].setLakes(args[j++]);
 		}
 		
 		for (int i = 0; i< Trip.length; i++){
@@ -20,6 +31,7 @@ public class LearningInheritenceChild1 extends LearningInheritenceParent {
 			System.out.println("Beach " + i + " is " + Trip[i].getBeaches());
 			System.out.println("Mountain " + i + " is " + Trip[i].getMountains());
 			System.out.println("Park " + i + " is " + Trip[i].getParks());
+			System.out.println("Lake " + i + " is " + Trip[i].getLakes());
 		}
 	
 	}
