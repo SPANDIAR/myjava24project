@@ -31,6 +31,14 @@ public class LearningInheritanceChild2 extends LearningInheritenceParent{
 		}
 		
 		System.out.println("Number of Trip Objects is :" + Trip.size());
+		
+		for(int k=0;k<Trip.size();k++){
+			System.out.println("Beach in Trip " + k + " is: " + Trip.get(k).getBeaches());
+			System.out.println("Mountains in Trip " + k + " is: " + Trip.get(k).getMountains());
+			System.out.println("Parks in Trip " + k + " is: " + Trip.get(k).getParks());
+			System.out.println("City in Trip " + k + " is: " + Trip.get(k).getCity());
+			
+		}
 
 	}
 
