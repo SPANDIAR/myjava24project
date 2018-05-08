@@ -26,7 +26,7 @@ public class LearningInheritanceChild2 extends LearningInheritenceParent{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String[] locations = {"Santa Cruz",  "Mission Peaks",  "Bayland Parks", "San Jose", "Marriot", "Half Moon Bay", "PG&E Trail", "FairWood Park", "Sunnyvale", "Hilton"};
+		String[] locations = {"Santa Cruz",  "Mission Peaks",  "Bayland Parks", "San Jose", "Marriot", "Half Moon Bay", "PG&E Trail", "FairWood Park", "Sunnyvale", "RainTree"};
 		ArrayList<LearningInheritanceChild2> Trip = new ArrayList<LearningInheritanceChild2>();
 		int j=0;
 		
